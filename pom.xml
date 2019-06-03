@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>geektime.demo</groupId>
+    <artifactId>spring-family</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>HelloWorld</name>
+    <description>Demo project for Spring Boot</description>
+    <modules>
+        <module>Chapter 1/helloworld</module>
+
+        <module>Chapter 2/datasource-demo</module>
+        <module>Chapter 2/declarative-transaction-demo</module>
+        <module>Chapter 2/druid-demo</module>
+        <module>Chapter 2/errorcode-demo</module>
+        <module>Chapter 2/multi-datasource-demo</module>
+        <module>Chapter 2/programmatic-transaction-demo</module>
+        <module>Chapter 2/pure-spring-datasource-demo</module>
+        <module>Chapter 2/simple-jdbc-demo</module>
+
+        <module>Chapter 3/jpa-complex-demo</module>
+        <module>Chapter 3/jpa-demo</module>
+        <module>Chapter 3/mybatis-demo</module>
+        <module>Chapter 3/mybatis-generator-demo</module>
+        <module>Chapter 3/mybatis-pagehelper-demo</module>
+        <module>Chapter 3/springbucks</module>
+
+        <module>Chapter 4/cache-demo</module>
+        <module>Chapter 4/cache-with-redis-demo</module>
+        <module>Chapter 4/jedis-demo</module>
+        <module>Chapter 4/mongo-demo</module>
+        <module>Chapter 4/mongo-repository-demo</module>
+        <module>Chapter 4/redis-demo</module>
+        <module>Chapter 4/redis-repository-demo</module>
+
+        <module>Chapter 5/mongodb-demo</module>
+        <module>Chapter 5/performance-aspect-demo</module>
+        <module>Chapter 5/r2dbc-repository-demo</module>
+        <module>Chapter 5/reactive-springbucks</module>
+        <module>Chapter 5/redis-demo</module>
+        <module>Chapter 5/simple-r2dbc-demo</module>
+        <module>Chapter 5/simple-reactor-demo</module>
+
+        <module>Chapter 6/cache-demo</module>
+        <module>Chapter 6/complex-controller-demo</module>
+        <module>Chapter 6/context-hierarchy-demo</module>
+        <module>Chapter 6/exception-demo</module>
+        <module>Chapter 6/json-view-demo</module>
+        <module>Chapter 6/more-complex-controller-demo</module>
+        <module>Chapter 6/simple-controller-demo</module>
+        <module>Chapter 6/springbucks</module>
+        <module>Chapter 6/thymeleaf-view-demo</module>
+
+        <module>Chapter 7/advanced-resttemplate-demo</module>
+        <module>Chapter 7/complex-resttemplate-demo</module>
+        <module>Chapter 7/customer-service</module>
+        <module>Chapter 7/simple-resttemplate-demo</module>
+        <module>Chapter 7/webclient-demo</module>
+
+        <module>Chapter 8/hateoas-customer-service</module>
+        <module>Chapter 8/hateoas-waiter-service</module>
+        <module>Chapter 8/session-demo</module>
+        <module>Chapter 8/webflux-waiter-service</module>
+
+        <module>Chapter 9/autoconfigure-demo</module>
+        <module>Chapter 9/geektime-autoconfigure-backport</module>
+        <module>Chapter 9/geektime-spring-boot-autoconfigure</module>
+        <module>Chapter 9/geektime-spring-boot-starter</module>
+        <module>Chapter 9/greeting</module>
+        <module>Chapter 9/property-source-demo</module>
+
+        <module>Chapter 10/command-line-demo</module>
+        <module>Chapter 10/docker-demo</module>
+        <module>Chapter 10/http2-customer-service</module>
+        <module>Chapter 10/http2-waiter-service</module>
+        <module>Chapter 10/indicator-demo</module>
+        <module>Chapter 10/jar-demo</module>
+        <module>Chapter 10/metrics-demo</module>
+        <module>Chapter 10/sba-client-demo</module>
+        <module>Chapter 10/sba-server-demo</module>
+        <module>Chapter 10/ssl-customer-service</module>
+        <module>Chapter 10/ssl-waiter-service</module>
+        <module>Chapter 10/tomcat-demo</module>
+
+        <module>Chapter 12/consul-customer-service</module>
+        <module>Chapter 12/consul-waiter-service</module>
+        <module>Chapter 12/eureka-server</module>
+        <module>Chapter 12/eureka-waiter-service</module>
+        <module>Chapter 12/feign-customer-service</module>
+        <module>Chapter 12/fixed-discovery-client-demo</module>
+        <module>Chapter 12/nacos-customer-service</module>
+        <module>Chapter 12/nacos-waiter-service</module>
+        <module>Chapter 12/ribbon-customer-service</module>
+        <module>Chapter 12/zk-customer-service</module>
+        <module>Chapter 12/zk-waiter-service</module>
+
+        <module>Chapter 13/bulkhead-customer-service</module>
+        <module>Chapter 13/circuit-break-demo</module>
+        <module>Chapter 13/hystrix-customer-service</module>
+        <module>Chapter 13/hystrix-dashboard-demo</module>
+        <module>Chapter 13/hystrix-stream-customer-service</module>
+        <module>Chapter 13/ratelimiter-waiter-service</module>
+        <module>Chapter 13/resilience4j-circuitbreaker-demo</module>
+        <module>Chapter 13/turbine-demo</module>
+
+        <module>Chapter 14/config-server</module>
+        <module>Chapter 14/consul-config-waiter-service</module>
+        <module>Chapter 14/git-config-waiter-service</module>
+        <module>Chapter 14/nacos-config-waiter-service</module>
+        <module>Chapter 14/zk-config-waiter-service</module>
+
+        <module>Chapter 15/busy-waiter-service</module>
+        <module>Chapter 15/kafka-barista-service</module>
+        <module>Chapter 15/kafka-waiter-service</module>
+        <module>Chapter 15/lazy-customer-service</module>
+        <module>Chapter 15/rabbitmq-barista-service</module>
+        <module>Chapter 15/rabbitmq-waiter-service</module>
+        <module>Chapter 15/scheduled-customer-service</module>
+
+        <module>Chapter 16/docker-compose.yml</module>
+        <module>Chapter 16/final-barista-service</module>
+        <module>Chapter 16/final-customer-service</module>
+        <module>Chapter 16/final-waiter-service</module>
+        <module>Chapter 16/mq-zipkin-barista-service</module>
+        <module>Chapter 16/sleuth-customer-service</module>
+        <module>Chapter 16/sleuth-waiter-service</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.1.5.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
